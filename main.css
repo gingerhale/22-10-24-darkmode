@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+body.light {
+  color: brown;
+  background-color: papayawhip;
+}
+
+body.dark {
+  color: papayawhip;
+  background-color: brown;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: auto;
+  max-width: 50ch;
+  min-height: 100vh;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: block;
+  border: 2px solid brown;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+
+  color: brown;
+  background: #eee;
+
+}
+
+label:hover {
+  background: white;
+}
+
+label:active{
+  color: papayawhip;
+  background-color: brown;
+}
